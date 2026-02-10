@@ -60,7 +60,7 @@ main div.contact {
     border:  5px dotted blue;
     border-radius: 20px;
     box-shadow: 3px 3px 4px 4px red;
-    padding: 1em
+    padding: 1em;
 }
 footer.copyright {
     text-align: center;
