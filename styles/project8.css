@@ -84,11 +84,6 @@ p.fixed {
     border: 2px solid green;
     padding: 10px;
 }
-aside{
-    width: 20%;
-    float: right;
-    background-color: #ffebc6;
-}
 .References {
     background-color: #facd8a;
     padding: 25px;
