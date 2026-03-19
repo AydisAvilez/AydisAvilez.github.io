@@ -3,7 +3,7 @@ body {
     margin: 20px;
 }
 
-h1 {
+body > h1 {
     text-align: center;
 }
 
@@ -37,7 +37,7 @@ nav a:hover {
 }
 
 article h1 {
-    margin-bottom: 10px;
+    text-align: left;
 }
 
 article h2 {
