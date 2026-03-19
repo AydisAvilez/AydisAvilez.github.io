@@ -1,0 +1,33 @@
+body {
+    width: 95%;
+    margin: 15px auto;
+    padding: 20px;
+    border: 3px solid #444;
+    border-radius: 20px;
+    background-image:url("images/samhouston.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+    background-size: 45%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    margin:20px 0;
+}
+
+nav a {
+    display: inline-block;
+    width: 150px;
+    text-align: center;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    padding: 12px 0;
+    margin-right: 5px;
+    border: 2px solid #4b4bff;
+}
+
+hr {
+    border: ;
+}
