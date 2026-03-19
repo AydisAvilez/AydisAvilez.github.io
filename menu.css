@@ -36,8 +36,12 @@ nav a:hover {
     background-color: #3535b0;
 }
 
-article {
-    margin-top: 20px;
+article h1 {
+    margin-bottom: 10px;
+}
+
+article h2 {
+    margin-top: 10px;
 }
 
 aside ol {
