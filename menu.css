@@ -1,0 +1,50 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+nav ul {
+   list-style-type: none; 
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   background-color: #4b4bd4;
+   width: fit-content;
+}
+
+nav li {
+    float: left;
+    border-right: 1px solid white;
+}
+
+nav li:last-child {
+    border-right: none;
+}
+
+nav a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 14px 30px;
+    text-align: center;
+}
+
+nav a:hover {
+    background-color: #3535b0;
+}
+
+article {
+    margin-top: 20px;
+}
+
+aside ol {
+    list-style-type: upper-roman;
+}
+
+aside ul {
+    list-style-type: square;
+}
