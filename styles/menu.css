@@ -3,7 +3,7 @@ body {
     margin: 20px;
 }
 
-body > h1 {
+.container > h1 {
     text-align: center;
 }
 
