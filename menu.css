@@ -13,12 +13,10 @@ nav ul {
    padding: 0;
    overflow: hidden;
    background-color: #4b4bd4;
-   width: fit-content;
 }
 
 nav li {
     float: left;
-    border-right: 1px solid white;
 }
 
 nav li:last-child {
@@ -28,9 +26,10 @@ nav li:last-child {
 nav a {
     display: block;
     color: white;
-    text-decoration: none;
-    padding: 14px 30px;
     text-align: center;
+    padding: 14px 30px;
+    text-decoration: none;
+    border-right: 1px solid white;
 }
 
 nav a:hover {
