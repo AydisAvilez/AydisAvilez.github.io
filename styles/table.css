@@ -38,9 +38,9 @@ table.second th, table.second td {
 }
 
 table.third {
-    width: 600px;
+    width: 400px;
     border-collapse: collapse;
-    margin: 20px auto; 
+    margin: 20px 0; 
 }
 
 table.third caption{
