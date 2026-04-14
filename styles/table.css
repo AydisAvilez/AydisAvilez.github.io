@@ -40,7 +40,6 @@ table.second th, table.second td {
 table.third {
     width: 100%;
     border-collapse: collapse;
-    background-color: lightgreen;
 }
 
 table.third caption{
@@ -49,9 +48,8 @@ table.third caption{
     padding: 0.5em;
 }
 
-table.third{
+table.third thead {
     background-color: lightgreen;
-    padding: 0.7em;
 }
 
 table.third th
