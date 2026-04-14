@@ -68,6 +68,7 @@ footer {
     .menu-button-container {
         display: flex;
     }
+    
     .menu {
         position: absolute;
         top: 0;
