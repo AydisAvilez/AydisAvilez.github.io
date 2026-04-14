@@ -59,9 +59,9 @@ table.third td {
     vertical-align: middle;
 }
 
-table.third thead tr:first-child [
+table.third thead tr:first-child {
     border-top: 2px solid orange;
-]
+}
 
 table.third tbody tr:last-child {
     border-bottom: 2px solid orange;
