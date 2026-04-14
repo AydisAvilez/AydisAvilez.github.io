@@ -38,8 +38,9 @@ table.second th, table.second td {
 }
 
 table.third {
-    width: 100%;
+    width: 600%;
     border-collapse: collapse;
+    margin: 20px auto; 
 }
 
 table.third caption{
