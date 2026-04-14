@@ -71,9 +71,15 @@ table.third tbody tr:last-child {
     .third th,
     .third rd {
         display: block;
+        width: 100%;
+        box-sizing: border-box;
+        text-align: left;
     }
 
-    .third thead,
+    .third thead {
+        display: none;
+    }
+    
     .third td.number {
         display: none;
         padding: 0;
