@@ -65,20 +65,40 @@ footer {
 }
 
 @media (max-width: 700px) {
-
     .menu-button-container {
         display: flex;
     }
     .menu {
+        position: absolute;
+        top: 0;
+        margin-top: 50px;
+        left: 0;
         flex-direction: column;
         width: 100%;
+        justify-content: center;
+        align-items: center;
     }
 
-    .menu li {
-        text-align: center;
-        padding: 10px;
-        background-color: #222;
-        color: white;
+    #menu-toggle ~ .menu li {
+        height: 0;
+        margin: 0;
+        padding: 0;
+        border: 0;
+        transition: height 400ms cubci-bezier(0.23, 1, 0.32, 1);
+    }
+
+    #menu-toggle:checked ~ .menu li{
+        border: 1px solid #333;
+        height: 2.5em;
+        padding: 0.5em;
+    }
+
+    .menu > li {
+        display: flex;
+        justify-content: center;
+        margin: 0;
         width: 100%;
+        color: white;
+        background-color: #222;
     }
 }
