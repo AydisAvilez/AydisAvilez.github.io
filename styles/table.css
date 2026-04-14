@@ -53,7 +53,7 @@ table.third thead {
     background-color: lightgreen;
 }
 
-table.third th
+table.third th,
 table.third td {
     padding: 0.7em;
     vertical-align: top;
